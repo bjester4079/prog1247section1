@@ -8,15 +8,17 @@
     <meta name="keywords" content="Sebastian, Vettel, F1, Formula 1, Autosports, Car Racing, Ferrari, Red Bull Racing">
     <meta name="description" content="This is a webpage about the four time formula 1 world champion Sebastian Vettel">
     <title>Sebastian Vettel</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 
 <body>
     <header>
         <h1>Sebastian Vettel</h1>
     </header>
-    <main>
+    <main id="main">
+        <h2>Biography</h2>
         <section id="biography">
-            <h2>Biography</h2>
             <blockquote cite="https://en.wikipedia.org/wiki/Sebastian_Vettel">
                 <strong>Sebastian Vettel</strong> is a German racing driver, who most recently competed in Formula One
                 from 2007
@@ -26,11 +28,12 @@
             </blockquote>
         </section>
         <section id="image">
-            <h2>Image</h2>
-            <img width="450" height="300"
-                alt="Sebastian Vettel waving with his right hand while wearing a red Ferrari race suit and hat."
-                src="images/Sebastian-Vettel.jpg">
-            <figcaption>Sebastian Vettel wearing a Ferrari race suit</figcaption>
+            <figure>
+                <img  width="480" height="320"
+                    alt="Sebastian Vettel waving with his right hand while wearing a red Ferrari race suit and hat."
+                    src="images/Sebastian-Vettel.jpg">
+                <figcaption>Sebastian Vettel wearing a Ferrari race suit</figcaption>
+            </figure>
         </section>
         <section id="quote">
             <h2>Quote</h2>
@@ -38,20 +41,20 @@
                 the best.
                 But you can do your best.
             </q>
-            <cite>Sebastian Vettel</cite>
+            <cite style="display: block;">Sebastian Vettel</cite>
         </section>
         <section id="video">
             <h2>Video</h2>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/tliBQCYvHBY?si=UBoZaN9LmLX0Ig62"
+            <iframe width="900" height="450" src="https://www.youtube.com/embed/tliBQCYvHBY?si=UBoZaN9LmLX0Ig62"
                 title="YouTube video player" frameborder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                 referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
         </section>
     </main>
-    <aside>
+    <aside id="aside">
         <section id="links">
             <h2>Links</h2>
-            <ul>
+            <ul id="links_list">
                 <li><a href="https://en.wikipedia.org/wiki/Sebastian_Vettel" target=_blank
                         title="Sebastian Vettel's Wikipedia Page">Wikipedia</a></li>
                 <li><a href="https://sebastianvettel.de/en/start/" target="_blank"
@@ -87,7 +90,7 @@
             </form>
         </section>
     </aside>
-    <footer>
+    <footer id="footer">
         <p>
             Benjamin Jester &copy; 2025
         </p>

@@ -1,0 +1,139 @@
+/* Benjamin Jester Student Number: 6284079 */
+
+html{
+    font: normal normal 500 20px/1.5 Verdana, Arial, sans-serif;
+    background-color: beige;
+}
+
+body{
+    max-width: 1500px;
+    margin: auto;
+    padding: .25rem;
+}
+
+header, main, aside, footer{
+    margin : .5rem;
+    padding: .25rem;
+}
+
+#main{
+    width: 70%;
+    float: left;
+}
+
+#aside{
+    width: 25%;
+    float: right;
+}
+
+#footer{
+    clear: both;
+}
+
+#biography{
+    width: 49%;
+    float: left;
+}
+
+#image{
+    width: 49%;
+    float: right;
+}
+
+#quote{
+    clear: both;
+}
+
+header > h1{
+    font-size: 1.25em;
+}
+
+footer{
+    font-size: .75em;
+}
+
+header, footer {
+    text-align: center;
+    background-image: linear-gradient(black, red, yellow);
+}
+
+main h2{
+    font-variant: small-caps;
+    font-style: italic;
+    font-weight: bolder;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: darkgoldenrod;
+    text-align: center;
+    margin : .5rem;
+    padding: .25rem;
+}
+
+main q{
+    font-variant: small-caps;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 1.50em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: red;
+}
+
+#quote{
+    text-align: center;
+    border: .25rem solid darkred;
+    box-shadow: .50rem .50rem .50rem black;
+    margin : .5rem;
+    padding: .25rem;
+}
+
+#image, #image figure, #image img{
+    border-radius: .75rem;
+    margin : .5rem;
+    padding: .25rem;
+    margin: auto;
+}
+
+#image figure{
+    border: .25rem solid darkred;
+    background-color: red;
+}
+
+#image figcaption{
+    font-variant: small-caps;
+    font-style: normal;
+    font-weight: 600;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: darkred;
+    text-align: center;
+}
+
+#video iframe{
+    border: .25rem solid darkred;
+    margin : .5rem;
+    padding: .25rem;
+    margin-left: 3em;
+}
+
+aside h2{
+    font-variant: small-caps;
+    color: red;
+    text-align: center;
+    margin: auto;
+}
+
+#links_list{
+    list-style-type: none;
+    line-height: 2rem;
+}
+
+#links_list a{
+    text-decoration: none;
+    color: darkred;
+}
+
+#links_list a:link{
+    color: darkred;
+}
+
+#links_list a:hover{
+    color: red;
+}
